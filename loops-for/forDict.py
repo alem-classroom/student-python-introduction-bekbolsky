@@ -1,2 +1,7 @@
 def reverse_dict(dict):
-    # swap keys and values within dict and return dict
+    rev_dict = {}
+    for key in dict.keys():
+        new_key = dict[key]
+        new_value = key
+        rev_dict[str(new_key)] = str(new_value)
+    return rev_dict

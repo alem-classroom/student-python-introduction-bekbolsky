@@ -1,2 +1,3 @@
 def hello_world():
-    # return Hello World! as string
+    greeting = "Hello World!"
+    return greeting

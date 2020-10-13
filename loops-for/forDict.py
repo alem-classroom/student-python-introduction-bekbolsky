@@ -1,4 +1,4 @@
-dict = {'first': 'первый', 'second': 'второй'}
+dict = {"first": "первый", "second": "второй"}
 
 
 def reverse_dict(dict):
@@ -8,6 +8,3 @@ def reverse_dict(dict):
         new_value = key
         rev_dict[str(new_key)] = str(new_value)
     return rev_dict
-
-
-print(reverse_dict(dict))
